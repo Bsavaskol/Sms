@@ -3,7 +3,7 @@ from time import sleep
 from os import environ
 from sms import SendSms
 
-token = environ.get('TOKEN')
+token = environ.get('5904673285:AAE1sR-8G9v0loO9900og7aaM5JVBEgVjgY')
 
 def getUpdate():
     url = 'https://api.telegram.org/bot{}/getUpdates'.format(token)
